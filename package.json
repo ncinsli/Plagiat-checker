@@ -1,0 +1,23 @@
+{
+  "name": "plagiatchecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electromon app.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "mot2",
+  "license": "ISC",
+  "dependencies": {
+    "electromon": "^1.0.10"
+  },
+  "build": {
+    "appId": "plagiator.0",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  }
+}
