@@ -1,3 +1,4 @@
+//Я бездумно скопировал алгоритм с шарпового варианта, ибо он не мой
 var number, text1str, text2str, index, compare, textAmount, final;
 var words, words1, wordsNew, words1New;
 
